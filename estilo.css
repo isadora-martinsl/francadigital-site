@@ -1,0 +1,17 @@
+body {
+    background-color: blanchedalmond;
+    background-repeat: no repeat;
+    font-family: "Playfair Display", serif;
+}
+
+p {
+    color: rgb(247, 0, 255);
+}
+
+.cor {
+    color:rgb(110, 26, 189); 
+}
+
+#corunica {
+    color:brown
+}
