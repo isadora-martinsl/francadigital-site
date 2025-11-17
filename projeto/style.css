@@ -1,3 +1,6 @@
+
+
+
 :root {
   --cor-primaria: rgb(70, 68, 182);
   --cor-fundo: #061d52;
@@ -152,7 +155,7 @@ button:hover {
 }
 
 .galeria {
-  height: 130px;
+  height: 400px;
   border-radius: 18px;
   overflow: hidden;
   background-size: cover;

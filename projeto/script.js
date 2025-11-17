@@ -10,4 +10,12 @@ const chips = document.querySelectorAll(".chip");
 const galeria = document.getElementById("galeriaHero");
 
 const imagemInicial = chips[0].dataset.imagem;
-galeria.style.backgroundimage = `url(${imagemInicial})`
+galeria.style.backgroundImage = `url(${imagemInicial})`;
+
+// forEach: para cada objeto (repetir)
+chips.forEach((chip) => {
+    chip.addEventListener("click", () => {
+        galeria.classList.add("ativa");
+        galeria.style.backgroundImage = `url(${chip.dataset.image})`;
+    })
+})
